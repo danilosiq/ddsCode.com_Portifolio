@@ -1,0 +1,380 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(231, 231, 231);
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    height: 8vh;
+    justify-content: space-between;
+    background-color: rgb(52, 51, 51);
+    position: fixed;
+    z-index: 1000;
+}
+
+.navbar h2 {
+    margin-left: 3%;
+    display: inline-block;
+    align-self: center;
+    color: aliceblue;
+}
+
+.links-nav {
+    margin-right: 3%;
+    flex-direction: column-reverse;
+    display: inline-block;
+    width: 40%;
+    font-size: 24px;
+    align-self: center;
+
+}
+
+.navbar a {
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: aliceblue;
+}
+
+.navbar ul :hover {
+    background-color: rgb(84, 84, 84);
+
+    margin-left: 5px;
+    margin-right: 5px;
+    transition: 90ms;
+    border-radius: 5px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+
+}
+
+.welcome-camp {
+    height: 890px;
+    width: 1650px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    transition: 300ms;
+
+}
+
+.italic{
+    font-style: italic;
+}
+
+.text-camp-welcome p {
+    margin-left: 3%;
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.text-camp-welcome h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 5%;
+    font-size: 120px;
+    margin-left: 3%;
+}
+
+.text-camp-welcome {
+    margin-top: 8vh;
+    width: 50%;
+    display: inline-block;
+
+}
+
+.img-welcome {
+    display: inline-block;
+    width: 50%;
+    margin-top: 8vh;
+}
+
+
+.img-welcome img {
+    object-fit: cover;
+    width: 100%;
+    height: 750px;
+    border-radius: 10px;
+}
+
+.contacts {
+    margin-left: 3%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contacts img {
+    width: 70px;
+}
+
+.contacts a :hover {
+    opacity: 50%;
+}
+
+.inv-text-camp {
+    margin-top: 8vh;
+    width: 3%;
+    height: 100px;
+}
+
+.line-welcome {
+    background-color: black;
+    width: 6px;
+    height: 800px;
+    display: inline-block;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.button {
+    transition: width 500ms ease;
+    display: inline-block;
+    width: 280px;
+    height: 50px;
+    background-color: black;
+    border-style: none;
+    border-radius: 10px;
+    margin-left: 3%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.button p {
+    font-size: 200%;
+}
+
+
+
+.button:hover {
+    width: 400px;
+    transition: 500ms;
+}
+
+
+.text-camp-welcome a {
+    color: aliceblue;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.invi {
+    width: 100%;
+    height: 6vh;
+}
+
+.contact-end {
+    margin: auto;
+    width: 80%;
+    height: 350px;
+    display: flex;
+}
+.text-end{
+    width: 80%;
+    margin: auto;
+}
+.text-end p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 1%;
+    text-align: center;
+    font-size: 14px;
+}
+
+.linha {
+    width: 80%;
+}
+
+.contacts-number {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1%;
+    width: 15%;
+    height: 300px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.contacts-number a{
+    background-color: rgb(24, 24, 24);
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.contacts-insta a{
+    color: aliceblue;
+    background-color: rgb(24, 24, 24);
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.contacts-insta a:hover{
+    opacity: 50%;
+    transition: 100ms;
+}
+
+.contacts-number a:hover{
+    opacity: 50%;
+    transition: 100ms;
+}
+
+
+
+
+.contacts-insta{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1%;
+    width: 15%;
+    height: 300px;
+}
+
+.contacts-linkedin{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1%;
+    width: 15%;
+    height: 300px;
+}
+
+
+@media (width < 1660px) {
+    * {
+        transition: 300ms;
+    }
+
+    .links-nav {
+        width: 50%;
+        transition: 300ms;
+    }
+
+    .welcome-camp {
+        width: 90%;
+        transition: 300ms;
+    }
+
+    .button {
+        width: 300px;
+    }
+}
+
+@media (width < 1300px) {
+    .links-nav {
+        width: 65%;
+        transition: 300ms;
+    }
+
+    .text-camp-welcome h1 {
+        font-size: 100px;
+    }
+
+    .contacts img {
+        width: 80%;
+        height: auto;
+    }
+}
+
+@media (width < 900px) {
+    .navbar h2 {
+        display: none;
+    }
+
+
+
+    .text-camp-welcome h1 {
+        font-size: 80px;
+    }
+
+    .welcome-camp {
+        width: 90%;
+        transition: 300ms;
+    }
+
+
+    .contact-end{
+        flex-direction: column;
+    }
+
+    .contacts-insta{
+        width: 80%;
+        margin-bottom: 1%;
+    }
+
+    .contacts-number{
+        width: 80%;
+        margin-bottom: 1%;
+    }
+
+    .contacts-linkedin{
+        width: 80%;
+        margin-bottom: 1%;
+    }
+
+    .button {
+        width: 150px;
+        height: 100px;
+    }
+
+    .button:hover {
+        width: 200px;
+        transition: 100ms;
+    }
+
+    .links-nav {
+        width: 100%;
+        font-size: 100%;
+        justify-content: space-around;
+    }
+}
+
+@media (width < 600px) {
+
+
+    .line-welcome {
+        height: 790px;
+    }
+
+    .text-camp-welcome {
+        width: 90%;
+    }
+
+    .img-welcome {
+        display: none;
+    }
+
+    .text-camp-welcome {
+        height: 60vh;
+        width: 100%;
+    }
+
+    .welcome-camp {
+        width: 97%;
+        transition: 300ms;
+    }
+
+    .links-nav {
+        width: 100%;
+    }
+
+    .navbar h2 {
+        display: none;
+    }
+
+    .links-nav {
+        font-size: 90%;
+        justify-content: space-around;
+    }
+}

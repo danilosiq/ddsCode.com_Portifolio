@@ -1,0 +1,513 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(231, 231, 231);
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    height: 8vh;
+    justify-content: space-between;
+    background-color: rgb(52, 51, 51);
+    position: fixed;
+    z-index: 1000;
+}
+
+.navbar h2 {
+    margin-left: 3%;
+    display: inline-block;
+    align-self: center;
+    color: aliceblue;
+}
+
+.links-nav {
+    margin-right: 3%;
+    flex-direction: column-reverse;
+    display: inline-block;
+    width: 40%;
+    font-size: 24px;
+    align-self: center;
+
+}
+
+.navbar a {
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: aliceblue;
+}
+
+.navbar ul :hover {
+    background-color: rgb(84, 84, 84);
+
+    margin-left: 5px;
+    margin-right: 5px;
+    transition: 90ms;
+    border-radius: 5px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+
+}
+
+
+/* --------------------------------INICIO--------------------------------------*/
+.about-camp {
+    height: 830px;
+    width: 1650px;;
+    margin: auto;
+    padding-bottom: 1%;
+    display: flex;
+    justify-content: space-around;
+    transition: 300ms;
+}
+
+.img-about {
+    display: inline-block;
+    width: 50%;
+    height: 80vh;
+    margin-top: 8vh;
+}
+
+
+.img-about img {
+    object-fit: cover;
+    width: 100%;
+    height: 750px;
+    border-radius: 10px;
+}
+
+.text-camp-about {
+    margin-top: 8vh;
+    width: 50%;
+    height: 80vh;
+    display: inline-block;
+    text-align: end;
+}
+
+.text-camp-about p {
+    font-size: 20px;
+    margin-right: 5%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.text-camp-about h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 5%;
+    font-size: 120px;
+}
+
+.line-about {
+    margin-top: 8vh;
+    background-color: black;
+    width: 6px;
+    height: 750px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.inv-about-camp {
+    margin-top: 8vh;
+    width: 3%;
+    height: 100px;
+
+}
+
+.img-camp-about {
+    width: 100%;
+    height: 100px;
+    display: none;
+    object-fit: cover;
+    margin-left: 2%;
+    margin-right: 1%;
+}
+
+
+
+/* --------------------------------INFACIA--------------------------------------*/
+
+
+.infacy-camp {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 1650px;;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    transition: 300ms;
+}
+
+.backgroud-infacy{
+    background-color: black;
+}
+
+.img-infacy{
+    display: inline-block;
+    width: 50%;
+    height: 80vh;
+}
+
+.inv-infacy-camp {
+
+    width: 3%;
+    height: 100px;
+
+}
+
+.img-infacy img {
+    object-fit: cover;
+    width: 100%;
+    height: 750px;
+    border-radius: 10px;
+}
+
+.infacy-text-camp{
+
+    width: 50%;
+    height: 80vh;
+    display: inline-block;
+}
+
+.infacy-text-camp p {
+    color: rgb(216, 219, 223);
+    font-size: 20px;
+    margin-left: 5%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.infacy-text-camp h1 {
+    color: rgb(216, 219, 223);;
+    margin-left: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 120px;
+}
+
+.line-infacy {
+    background-color: rgb(216, 219, 223);
+    width: 6px;
+    height: 750px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+
+
+.invi {
+    width: 100%;
+    height: 6vh;
+}
+
+.contact-end {
+    margin: auto;
+    width: 80%;
+    height: 350px;
+    display: flex;
+}
+.text-end{
+    width: 80%;
+    margin: auto;
+}
+.text-end p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 1%;
+    text-align: center;
+    font-size: 14px;
+}
+
+.linha {
+    width: 80%;
+}
+
+.contacts-number {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1%;
+    width: 15%;
+    height: 300px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.contacts-number a{
+    background-color: rgb(24, 24, 24);
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.contacts-insta a{
+    color: aliceblue;
+    background-color: rgb(24, 24, 24);
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.contacts-insta a:hover{
+    opacity: 50%;
+    transition: 100ms;
+}
+
+.contacts-number a:hover{
+    opacity: 50%;
+    transition: 100ms;
+}
+
+
+
+
+.contacts-insta{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1%;
+    width: 15%;
+    height: 300px;
+}
+
+.contacts-linkedin{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1%;
+    width: 15%;
+    height: 300px;
+}
+
+
+/* --------------------------------@MEDIA--------------------------------------*/
+@media (width < 1660px) {
+    * {
+        transition: 300ms;
+    }
+    .infacy-camp{
+        width: 90%;
+        transition: 300ms;
+    }
+    .infacy-text-camp p {
+        font-size: 19px;
+        transition: 300ms;
+    }
+
+    .links-nav {
+        width: 50%;
+        transition: 300ms;
+    }
+
+    .about-camp {
+        width: 90%;
+        transition: 300ms;
+    }
+
+    .infacy-text-camp h1 {
+        font-size: 100px;
+        transition: 300ms;
+    }
+}
+
+@media (width < 1300px) {
+
+    .about-camp {
+        width: 95%;
+        transition: 300ms;
+    }
+
+
+    
+    .links-nav {
+        width: 65%;
+        transition: 300ms;
+    }
+
+    .infacy-text-camp{
+        transition: 300ms;
+    }
+    .infacy-text-camp p {
+        font-size: 21px;
+        transition: 300ms;
+    }
+
+
+    .text-camp-about p {
+        font-size: 21px;
+        transition: 300ms;
+    }
+    .infacy-text-camp h1 {
+        font-size: 60px;
+        transition: 300ms;
+    }
+
+    .text-camp-about h1 {
+        font-size: 60px;
+        transition: 300ms;
+    }
+}
+
+@media (width < 1010px) {
+    .infacy-text-camp p{
+        font-size: 18px;
+    }
+
+    .text-camp-about p{
+        font-size: 18px;
+    }
+
+    .text-camp-about p{
+        font-size: 18px;
+    }
+
+}
+
+@media (width < 900px) {
+
+    .about-camp {
+        width: 95%;
+        transition: 300ms;
+    }
+
+    .navbar h2 {
+        display: none;
+    }
+
+
+    .text-camp-about p{
+        font-size: 16px;
+    }
+    .links-nav {
+        width: 100%;
+        font-size: 100%;
+        justify-content: space-around;
+    }
+
+    .contact-end{
+        flex-direction: column;
+    }
+
+    .contacts-insta{
+        width: 80%;
+        margin-bottom: 1%;
+    }
+
+    .contacts-number{
+        width: 80%;
+        margin-bottom: 1%;
+    }
+
+    .contacts-linkedin{
+        width: 80%;
+        margin-bottom: 1%;
+    }
+}
+
+@media (width < 860px) {
+    .text-camp-about p {
+        font-size: 18px;
+    }
+
+
+
+    .infacy-text-camp p{
+        font-size: 17px;
+    }
+}
+@media (width < 760px){
+
+    .text-camp-about p{
+        font-size: 16px;
+    }
+    .infacy-text-camp p{
+        font-size: 16px;
+    }
+
+    .infacy-text-camp h1{
+        font-size: 50px;
+    }
+}
+
+
+@media (width < 600px) {
+
+    .img-infacy{
+        display: none;
+    }
+
+    .line-infacy{
+        display: none;
+    }
+
+
+
+
+    .inv-infacy-camp{
+        display: none;
+    }
+
+    .infacy-camp{
+        margin-top: 50%;
+        height: 900px;
+    }
+
+    
+
+    .img-about {
+        display: none;
+    }
+
+    .img-camp-about {
+        display: block;
+
+    }
+
+    .inv-about-camp {
+        display: none;
+    }
+
+    .line-about {
+        height: 980px;;
+    }
+
+    .about-camp {
+        width: 97%;
+        transition: 300ms;
+        padding-top: 0px;
+    }
+
+    .links-nav {
+        width: 100%;
+    }
+
+    .navbar h2 {
+        display: none;
+    }
+
+    .links-nav {
+        font-size: 90%;
+        justify-content: space-around;
+    }
+
+    .text-camp-about {
+        width: 100%;
+        height: 1010px;
+
+        display: block;
+    }
+
+    .text-camp-about p {
+        font-size: 22px;
+        margin-left: 3%;
+    }
+
+    .text-camp-about h1 {
+        font-size: 60px;
+        margin-left: 3%;
+    }
+}
